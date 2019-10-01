@@ -1,0 +1,44 @@
+<!-- Let's create a simple number guessing game. The computer will pick a random number between 1 and 100 and you will have to guess that number. -->
+
+<!-- Requirements
+The user should be able to guess a number until they guess the right number.
+The user should be able to input a number and click a button to submit the number.
+The webpage should inform the user to guess a higher number, guess a lower number, or tell the user they guessed the correct number.
+The webpage should list all guessed numbers the user guessed during the session.
+Your number guessing game will consist of an HTML file, CSS file, and a Javascript file. -->
+
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Your link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Your Javascript file goes here -->
+    <script src="app.js" async defer></script>
+  </head>
+  <body>
+    <div class='stars'>
+    <div class='twinkling'>
+    <div class='clouds'>
+    <!-- your HTML should go here -->
+
+    <ul id="myList">
+    </ul>
+
+    <nav>
+      <h1>Guess a number&#8212SAVE THE WORLD!</h1>
+      <p id="changeableParagraph">An all-powerful AI has selected a number between 1 and 100.  To save humanity, you must guess the number within an infinite number of attempts.  Good luck...</p>
+
+      <form id="guessfrm1">
+        Test your guess: <input id="guess" type="text" name="guess"><br>
+        <input type="button" onclick="getGuess()" value="Submit">
+      </form>
+    </nav>
+  </div>
+</div>
+</div>
+
+
+  </body>
+</html>
